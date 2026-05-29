@@ -1,3 +1,4 @@
+# Django React Project
 <p align="center">
   <p align="center">
     <a href="https://justdjango.com/?utm_source=github&utm_medium=logo" target="_blank">
@@ -8,8 +9,6 @@
     The Definitive Django Learning Platform.
   </p>
 </p>
-
-# Django React Boilerplate
 
 [![alt text](https://github.com/justdjango/django-react-boilerplate/blob/master/thumbnail.png "Logo")](https://youtu.be/YKYVv0gm_0o)
 
@@ -40,6 +39,7 @@ npm run build
 ```
 
 ---
+# for learning purpose only
 
 <div align="center">
 
@@ -49,3 +49,4 @@ npm run build
 <a href="https://www.twitter.com/justdjangocode" target="_blank"><img src="https://img.shields.io/badge/Twitter-%231877F2.svg?&style=flat-square&logo=twitter&logoColor=white" alt="Twitter"></a>
 
 </div>
+
