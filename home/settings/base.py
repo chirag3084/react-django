@@ -18,14 +18,10 @@ INSTALLED_APPS = [
     "allauth.socialaccount",
     "corsheaders",
     "rest_auth",
-    "rest_auth.registration",
     "rest_framework",
     "rest_framework.authtoken",
-    "dj_rest-auth",
-    "dj_rest_auth.registration",
-    "django.contrib.sites",
+    'dj_rest_auth',
     "dj_rest_auth.registration",    
-    "allauth.account",
 ]
 
 MIDDLEWARE = [
