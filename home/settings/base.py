@@ -1,4 +1,5 @@
 import os
+from pickle import BUILD
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SECRET_KEY = "-05sgp9!deq=q1nltm@^^2cc+v29i(tyybv3v2t77qi66czazj"
@@ -41,7 +42,8 @@ ROOT_URLCONF = "home.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, "build")],
+        # "DIRS": [os.path.join(BASE_DIR, "build")],
+        "DIRS": [os.path.join(BASE_DIR,"public")],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
